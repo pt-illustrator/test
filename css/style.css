@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+
+.dm-serif-text-regular{
+  font-family: "DM Serif Text", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h4{
+    font-size: 80px;
+    margin: 5% 0 0 4.5%;
+    text-align: left;
+    font-weight: 200;
+    kerning: 80px;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+   margin: 0;
+}
+
+.main-img{
+    padding-top: 6%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo{
+    padding-top: 2% ;
+    display: block;
+    text-align: left;
+    padding-left: 3%;
+}
+
+
+
+.profile_image_div {
+    width:400px;
+    margin: 0 auto;
+    padding-top: 9%;
+    padding-bottom: 5%;
+}
+
+.profile{ 
+    /* This is a class for an img tag of class profile */
+    width:100%;
+    border-radius: 50%;
+}
+
+#about{
+    /* background-color:yellow; */
+    margin: 0 auto;
+    width: 60%;
+    min-width: 500px;
+    display: block;
+    text-align: center;
+  
+
+}
+
+#navigation{
+    padding-left: 1%;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin-right: 20%;
+    
+}
+
+
+li{
+    padding: 10px;         
+}
+
+
+a{
+    color: #000000; 
+    text-decoration: none; 
+    padding-top: 3%;
+    font-size: 30px;
+}
+
+a:hover{ 
+    color: #ffffff;
+    background-color:rgb(56, 124, 39);
+    padding: 2px 2px 2px 2px;
+}
+
+
+p{
+    font-size: 20px;
+    text-align: left;
+    kerning: 5px;
+    padding: 3% 0 0 0;
+    word-spacing: 15px;
+    line-height: 35px;
+
+}
+
+.rows{
+    display: grid;
+    padding-top: 6%;
+}
+
+.rows:hover{
+    opacity: 0.5;
+}
+
+.columns{
+    padding: 2% 0 0 0;
+}
